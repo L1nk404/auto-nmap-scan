@@ -4,9 +4,7 @@
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
 
@@ -20,9 +18,8 @@
 
 - [About](#about)
 - [Getting Started](#getting_started)
-- [Deployment](#deployment)
 - [Usage](#usage)
-- [Built Using](#built_using)
+- [Setting up](#built_using)
 - [Contributing](../CONTRIBUTING.md)
 - [Authors](#authors)
 
@@ -57,7 +54,7 @@ Without the need to set evertyhing manualy and providing a clear output.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
-### Prerequisites
+### Pre requisites
 <ul>
   <li>You need to have Nmap installed in your machine.
   <li>Some features of Nmap requires Root permission.
