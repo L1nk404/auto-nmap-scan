@@ -82,28 +82,16 @@ chmod +x scan.sh
 
 Now it's time to change the code for your own necessities.
 
-### Change the default path for output (Mandatory):
-
-In line 116 you have to change the default path. DONT change the variable "$folder".
-
-```
-# CHANGE THE PATH!!
-cd /set/your/default/path/"$folder" || echo -e "\e[1m\e[31Path not found, try again.\e[0m\e[0m" | exit
-```
 
 ### Changing the private ip for decoy (optional):
 
-In line 120 you have to change your private ip if you want to use the Decoy. Like the following example:
+At line 94 you might want to change your private ip if you want to personalize the decoy, by default it iS -D 5:
 
 ```
-# PRIVATES IPS! CHANGE IT FOR YOUR PREFENCE
-
-# my_ip='10.2.65'
-# spoof_ips="-D $my_ip.192 $my_ip.87 $my_ip.183 $my_ip.213 $my_ip.84 $my_ip.182 $my_ip.23 $my_ip.145"
+decoy_ips="-D 5" # Change this option if you want
 
 ```
 
-### You can also change or add the Nmap scan for fit your necessities.
 
 
 
