@@ -91,7 +91,7 @@ echo_done()
 
 ################ VARIABLES FOR CONFIG #################################################
 
-decoy_ips="-D 5" # Change this option with you want
+decoy_ips="-D5" # Change this option with you want
 
 target_addr=" "
 host_scan="False"
